@@ -1,10 +1,12 @@
 @import url(https://fonts.googleapis.com/css?family=Lato:400,300,100,700,900);
+@import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro:ital@1&display=swap');
 
-h1,
-p,
-a{
+*{
   margin: 0;
   padding: 0;
+}
+
+h1, a{
   font-family: 'Lato';
 }
 
@@ -18,11 +20,12 @@ p {
   font-size: 1.1em;
   font-weight: 600;
   letter-spacing: 2px;
+  font-family: 'Source Code Pro', monospace;
 }
 
 .banner {
   width: 100%;
-  padding: 20px 0;
+  padding: 60px 0;
   text-align: center;
   background: #4a9bd1;
   color: rgb(33, 44, 48);
@@ -48,7 +51,7 @@ p {
 
 .topnav {
     background-color: rgb(70, 89, 95);
-    overflow: hidden;
+    overflow:hidden;
   }
   
   /* Style the links inside the navigation bar */
@@ -56,7 +59,7 @@ p {
     float: right;
     color: #f2f2f2;
     text-align: center;
-    padding: 14px 16px;
+    padding: 14px 10px;
     text-decoration: none;
     font-size: 17px;
   }
@@ -74,7 +77,28 @@ p {
   }
 
   header{
-    width: 100%;
-    fill: #4a9bd1;
+    white-space: nowrap;
+  }
 
+  .typewriter p {
+    overflow: hidden; /* Ensures the content is not revealed until the animation */
+    border-right: 1px solid orange; /* The typwriter cursor */
+    white-space: nowrap; /* Keeps the content on a single line */
+    margin: 0 auto; /* Gives that scrolling effect as the typing happens */
+    letter-spacing: .1em; /* Adjust as needed */
+    animation: 
+      typing 5.0s steps(60),
+      blink-caret .75s infinite;
+  }
+  
+  /* The typing effect */
+  @keyframes typing {
+    from { width: 0 }
+    to { width: 50% }
+  }
+  
+  /* The typewriter cursor effect */
+  @keyframes blink-caret {
+    from, to { border-color: transparent }
+    50% { border-color: rgb(255, 255, 255); }
   }
