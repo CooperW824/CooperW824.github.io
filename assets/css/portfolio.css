@@ -1,5 +1,6 @@
 @import url(https://fonts.googleapis.com/css?family=Lato:400,300,100,700,900);
 @import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro:ital@1&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@200;300&display=swap');
 
 *{
   margin: 0;
@@ -16,7 +17,14 @@ h1 {
   font-weight: 800;
 }
 
-p {
+h2, p, h3{
+  text-align: center;
+  padding: 10px;
+  font-family: 'Inter', sans-serif;
+  font-weight: 500;
+} 
+
+header p {
   font-size: 1.1em;
   font-weight: 600;
   letter-spacing: 2px;
@@ -27,7 +35,7 @@ p {
   width: 100%;
   padding: 60px 0;
   text-align: center;
-  background: #4a9bd1;
+  background: #68BCED;
   color: rgb(33, 44, 48);
 }
 
@@ -101,4 +109,36 @@ p {
   @keyframes blink-caret {
     from, to { border-color: transparent }
     50% { border-color: rgb(255, 255, 255); }
+  }
+
+  #about{
+    background-color: #8c98dd;
+  }
+
+  #about hr{
+    width: 70%;
+    border-color: rgb(131, 111, 243);
+    background-color: rgb(131, 111, 243);
+    margin: auto;
+    height: 1px;
+  }
+
+  #about .pad {
+    padding: 10px;
+  }
+
+  #courseList{
+    margin: auto;
+    width: 70%;
+    padding: 10px;
+    font-family: "Inter", sans-serif;
+  }
+  
+  #about .img img{
+    width: 20%;
+    height: 20%;
+    float: left;
+    border-top: rgb(121, 104, 194) solid 5px;
+    border-right: rgb(102, 88, 167) solid 5px;
+    border-bottom: rgb(81, 69, 133) solid 5px;
   }
