@@ -17,12 +17,19 @@ h1 {
   font-weight: 800;
 }
 
-h2, p, h3{
+h2{
   text-align: center;
   padding: 10px;
   font-family: 'Inter', sans-serif;
   font-weight: 500;
 } 
+
+p, h3{
+  text-align: center;
+  padding: 5px;
+  font-family: 'Inter', sans-serif;
+  font-weight: 500;
+}
 
 header p {
   font-size: 1.1em;
@@ -122,23 +129,15 @@ header p {
     margin: auto;
   }
 
-  #about .pad {
-    padding: 10px;
-  }
-
-  #education{
-    margin: 0 auto;
-    width: 70%;
-    float:inline-start;
-    padding-left: 15%;
-  }
-
   #courseList{
     margin: 0 auto;
     width: 70%;
     padding: 10px;
     font-family: "Inter", sans-serif;
     list-style-position: inside;
+    text-align: center;
+    position: relative;
+    transform: translateX();
   }
   
   #about .img img{
