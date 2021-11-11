@@ -137,7 +137,7 @@ header p {
     list-style-position: inside;
     text-align: center;
     position: relative;
-    transform: translateX();
+    transform: translateX(8%);
   }
   
   #about .img img{
