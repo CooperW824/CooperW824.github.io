@@ -22,14 +22,17 @@ h2{
   padding: 10px;
   font-family: 'Inter', sans-serif;
   font-weight: 500;
-} 
+}
 
-p, h3{
+h3, p{
   text-align: center;
-  padding: 5px;
   font-family: 'Inter', sans-serif;
   font-weight: 500;
+  padding: 10px auto;
+  margin: 10px auto;
+ 
 }
+  
 
 header p {
   font-size: 1.1em;
@@ -122,31 +125,59 @@ header p {
     background-color: rgb(204, 228, 255);
   }
 
-  #about hr{
-    width: 70%;
+  #about .aboutHr{
+    width: 80%;
     border-color: rgb(0, 115, 153);
     background-color: rgb(0, 115, 153);
     margin: auto;
+    height: 2px;
   }
 
   #courseList{
     margin: 0 auto;
-    width: 70%;
-    padding: 10px;
+    padding: 0px;
     font-family: "Inter", sans-serif;
     list-style-position: inside;
     text-align: center;
     position: relative;
-    transform: translateX(8%);
   }
   
-  #about .img img{
+   #about_img img{
     width: 25%;
     height: 25%;
-    max-width: 250px;
     float: left;
     border-top: rgb(0, 153, 204) solid 5px;
     border-right: rgb(0, 115, 153) solid 5px;
     border-bottom: rgb(0, 96, 128)solid 5px;
   }
 
+  .bigRule {
+    width: 95%;
+    border-color: rgb(0, 115, 153);
+    border-style: outset;
+    background-color: rgb(0, 115, 153);
+    margin: auto;
+    height: 2px;
+  }
+
+  #pad {
+    padding: 10px;
+  }
+
+  #about_text{
+    max-width: 70%;
+    margin: 0 auto;
+    text-align: center;
+    position: relative;
+    left: 50%;
+    top: 50%;
+    padding-bottom: 20px;
+    transform: translate(-60%);
+  }
+
+  #activities{
+    max-width: 70%;
+    margin: 0 auto;
+    text-align: center;
+    padding-bottom: 20px;
+  }
