@@ -21,13 +21,13 @@ h2{
   text-align: center;
   padding: 10px;
   font-family: 'Inter', sans-serif;
-  font-weight: 500;
+  font-weight: 300;
 }
 
 h3, p{
   text-align: center;
   font-family: 'Inter', sans-serif;
-  font-weight: 500;
+  font-weight: 300;
   padding: 10px auto;
   margin: 10px auto;
  
@@ -161,7 +161,7 @@ header p {
   }
 
   #pad {
-    padding: 10px;
+    padding: 1%;
   }
 
   #about_text{
@@ -181,3 +181,16 @@ header p {
     text-align: center;
     padding-bottom: 20px;
   }
+
+  #activeList{
+      margin: 0 auto;
+      padding: 0px;
+      font-family: "Inter", sans-serif;
+      list-style-position: inside;
+      text-align: center;
+      position: relative;
+  }
+ li{
+    padding-bottom: 10px;
+  }
+
