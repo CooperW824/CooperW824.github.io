@@ -19,7 +19,7 @@ h1 {
 
 h2{
   text-align: center;
-  padding: 10px;
+  padding: 5px;
   font-family: 'Inter', sans-serif;
   font-weight: 300;
 }
@@ -146,8 +146,8 @@ header p {
     width: 25%;
     height: 25%;
     float: left;
-    border-top: rgb(0, 153, 204) solid 5px;
-    border-right: rgb(0, 115, 153) solid 5px;
+    border-top: rgb(25, 168, 216) solid 5px;
+    border-right: rgb(31, 130, 163) solid 5px;
     border-bottom: rgb(0, 96, 128)solid 5px;
   }
 
@@ -165,14 +165,14 @@ header p {
   }
 
   #about_text{
-    max-width: 70%;
+    max-width: 80%;
     margin: 0 auto;
     text-align: center;
     position: relative;
     left: 50%;
     top: 50%;
     padding-bottom: 20px;
-    transform: translate(-60%);
+    transform: translate(-55%);
   }
 
   #activities{
@@ -190,7 +190,61 @@ header p {
       text-align: center;
       position: relative;
   }
- li{
+
+ #activeList li{
     padding-bottom: 10px;
   }
 
+  #skills{
+    background-color: rgb(204, 161, 226);
+  }
+
+  #skills_img{
+    width: 35%;
+    height: 42.5em;
+    float: right;
+  }
+
+  #skills_img img{
+    position: relative;
+    transform: translateX(25%);
+  }
+
+  .skill_list{
+    margin: 0 auto;
+    padding: 0px;
+    font-family: "Inter", sans-serif;
+    list-style-position: inside;
+    text-align: center;
+    position: relative;
+  }
+
+  .skill_list li{
+    padding-bottom: 2px;
+  }
+
+  .skill_list p{
+    font-size: 1.5em;
+  }
+
+  #skills h3{
+    max-width: 80%;
+    margin: 0 auto;
+    padding: 0px;
+    text-align: center;
+    position: relative;
+    transform: translateX(-8%);
+  }
+
+  #pad5{
+    padding: 5px;
+  }
+
+  #skillRule{
+    width: 60%;
+    border-color: rgb(44, 2, 71);
+    border-style: outset;
+    background-color: rgb(92, 7, 117);
+    margin: auto;
+    height: 2px;
+  }
