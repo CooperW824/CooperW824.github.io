@@ -201,13 +201,14 @@ header p {
 
   #skills_img{
     width: 35%;
-    height: 42.5em;
     float: right;
   }
 
   #skills_img img{
-    position: relative;
-    transform: translateX(25%);
+    max-width: 100%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
   }
 
   .skill_list{
