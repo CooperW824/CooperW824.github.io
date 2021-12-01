@@ -1,6 +1,6 @@
 @import url(https://fonts.googleapis.com/css?family=Lato:400,300,100,700,900);
 @import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro:ital@1&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@200;300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
 
 *{
   margin: 0;
@@ -21,18 +21,29 @@ h2{
   text-align: center;
   padding: 5px;
   font-family: 'Inter', sans-serif;
-  font-weight: 300;
+  font-weight: 500;
 }
 
-h3, p{
+h3{
   text-align: center;
   font-family: 'Inter', sans-serif;
-  font-weight: 300;
+  font-weight: 450;
   padding: 10px auto;
   margin: 10px auto;
- 
 }
-  
+
+p{
+  text-align: center;
+  font-family: 'Inter', sans-serif;
+  font-weight: 400;
+  padding: 10px auto;
+  margin: 10px auto;
+}
+ 
+.skill_header {
+  font-family: 'Inter', sans-serif;
+  font-weight: 500;
+}
 
 header p {
   font-size: 1.1em;
@@ -248,4 +259,21 @@ header p {
     background-color: rgb(92, 7, 117);
     margin: auto;
     height: 2px;
+  }
+
+  #projects{
+    background-color: rgb(119, 178, 212);
+  }
+
+  #projectsFlex{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+  }
+
+  .projectBox{
+    width: 425px;
+    padding: 1%;
   }
