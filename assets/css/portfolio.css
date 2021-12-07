@@ -186,14 +186,14 @@ header p {
     transform: translate(-55%);
   }
 
-  #activities{
+  #activities, #awards{
     max-width: 70%;
     margin: 0 auto;
     text-align: center;
     padding-bottom: 20px;
   }
 
-  #activeList{
+  #activeList, #awardList{
       margin: 0 auto;
       padding: 0px;
       font-family: "Inter", sans-serif;
@@ -202,7 +202,7 @@ header p {
       position: relative;
   }
 
- #activeList li{
+ #activeList li, #awardList li{
     padding-bottom: 10px;
   }
 
@@ -276,4 +276,27 @@ header p {
   .projectBox{
     width: 425px;
     padding: 1%;
+    align-self: flex-start;
+  }
+
+  #projectPicture{
+    height: 250px;
+    width: 60%;
+    margin: auto;
+  }
+
+  #projectPicture img{
+    height: 100%;
+    width: 100%;
+  }
+
+  #projectPicture2{
+    height: 250px;
+    width: 100%;
+    margin: auto;
+  }
+
+  #projectPicture2 img{
+    height: 100%;
+    width: 100%;
   }
