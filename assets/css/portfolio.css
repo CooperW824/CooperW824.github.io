@@ -24,7 +24,7 @@ h2{
   font-weight: 500;
 }
 
-h3{
+h3, h4{
   text-align: center;
   font-family: 'Inter', sans-serif;
   font-weight: 450;
@@ -45,7 +45,7 @@ p{
   font-weight: 500;
 }
 
-header p {
+header p, footer p {
   font-size: 1.1em;
   font-weight: 600;
   letter-spacing: 2px;
@@ -133,7 +133,7 @@ header p {
   }
 
   #about{
-    background-color: rgb(204, 228, 255);
+    background-color: rgb(156, 214, 248);
   }
 
   #about .aboutHr{
@@ -262,7 +262,7 @@ header p {
   }
 
   #projects{
-    background-color: rgb(119, 178, 212);
+    background-color: rgb(156, 214, 248);
   }
 
   #projectsFlex{
@@ -300,3 +300,55 @@ header p {
     height: 100%;
     width: 100%;
   }
+
+  #experience{
+    background-color: rgb(218, 158, 248);
+  }
+
+
+  #experience .reference, #experience p{
+    max-width: 45%;
+  }
+
+footer{
+  background-color:rgb(140, 183, 248);
+}
+
+footer h2{
+  color: rgb(0,0,0)
+}
+
+.contact{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: rgb(140, 183, 248);
+
+}
+
+.contact a {
+  float: right;
+  color: rgb(0,0,0);
+  text-align: center;
+  padding: 14px 10px;
+  text-decoration: none;
+  font-size: 20px;
+}
+
+/* Change the color of links on hover */
+.contact a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+footer p{
+  text-align: center;
+  font-family: 'Inter', sans-serif;
+  font-weight: 450;
+  padding: 0 auto;
+  padding-bottom: 10px;
+  margin: auto;
+  font-size: .8em;
+  background-color: rgb(140, 183, 248);
+  color: rgb(0,0,0);
+}
