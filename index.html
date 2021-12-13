@@ -14,22 +14,37 @@
         <link rel="shortcut icon" type="image/jpg" href="assets/img/favicon.png">
     </head>
     <body>
-       <header>
-        <div class="topnav">
-            <a href="assets/downloadables/CooperWernerResume2021.pdf" download="">Resume</a>
-            <a href="">Contact</a>
-            <a href="#experience">Experience</a>
-            <a href="#projects">My Projects</a>
-            <a href="#skills">Skills</a> 
-            <a href="#about">About Me</a>       
-            <a class="active" href="#home">Home</a>
+        <header>
+        <!-- The Modal -->
+        <div id="myModal" class="modal">
+            <!-- Modal content -->
+            <div class="modal-content">
+            <span class="close">&times;</span>
+            <h2>Contact Me: </h2>
+            <div class="contact">
+                <a href="https://github.com/CooperW824" target="none">GitHub</a>
+                <a href="https://linkedin.com" target="none">LinkedIn</a>
+                <a href="mailto:cooperwerner824@gmail.com">Email</a>       
+            </div>
+            </div>
+        </div>
+        <div class="topnav" id="top_nav">
+            <a class="nav" id="home" href="#home">Home</a>
+            <a class="nav" href="#about">About Me</a>
+            <a class="nav" href="#skills">Skills</a> 
+            <a class="nav" href="#projects">Projects</a>
+            <a class="nav" href="#experience">Experience</a>
+            <a class="nav" id="contact">Contact</a>
+            <a class="nav" href="assets/downloadables/CooperWernerResume2021.pdf" download="">Resume</a>
         </div>
         <div id="home" class="banner">
-            <h1>Cooper Werner</h1>
-            <div class = "typewriter"> 
-                <p>Student. Developer. Leader.</p>
+            <div id="bannerText">
+                <h1>Cooper Werner</h1>
+                <div class = "typewriter"> 
+                    <p>Student. Developer. Leader.</p>
+                </div>
             </div>
-            <a class="btn-bgstroke" id="header-action" href="#about">Learn More</a>
+            
         </div>    
         </header>
         <div id="about">
@@ -37,8 +52,7 @@
             <div id="about_img">
                 <img src="assets/img/cooperwerner.JPG" alt ="cooperwerner.jpg">
             </div>
-            <div id="about_text">
-                
+            <div id="about_text">               
                 <h2>About Me:</h2>
                 <h3>Who am I?: </h3>
                 <p>I am a software developer, musician, composer, student, and a leader in my community. I strive to help other people and my work ethic is the center of my moral code. </p>
@@ -215,7 +229,7 @@
             <div id="pad5"></div>
         </div>
         <div id="experience">
-            <div id ="pad"></div>
+            <div id="pad5"></div>
             <h2>My Professional Experience and References</h2>
             <h3>Professional Experience</h3>
             <ul>
@@ -240,8 +254,8 @@
             <div id="pad5"></div>
             <h2>Contact Me: </h2>
             <div class="contact">
-                <a href="https://github.com/CooperW824">GitHub</a>
-                <a href="linkedin.com">LinkedIn</a>
+                <a href="https://github.com/CooperW824" target="none">GitHub</a>
+                <a href="https://linkedin.com" target="none">LinkedIn</a>
                 <a href="mailto:cooperwerner824@gmail.com">Email</a>       
                 <a href="#home">Back To Top</a>
             </div>
