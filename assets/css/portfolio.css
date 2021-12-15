@@ -299,7 +299,7 @@ header p, footer p {
 
 
   #experience .reference, #experience p{
-    max-width: 45%;
+    max-width: 600px;
   }
 
 footer{
