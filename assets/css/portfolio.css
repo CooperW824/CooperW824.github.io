@@ -271,6 +271,14 @@ header p, footer p {
     align-self: flex-start;
   }
 
+  .projectBox li{
+    text-align: center;
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+    padding: 10px auto;
+    margin: 10px auto;
+  }
+
   #projectPicture{
     height: 250px;
     width: 60%;
