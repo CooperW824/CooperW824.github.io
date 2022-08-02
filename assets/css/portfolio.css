@@ -271,6 +271,10 @@ header p, footer p {
     align-self: flex-start;
   }
 
+  .projectBox #links{
+    text-align: center;
+  }
+
   .projectBox li{
     text-align: center;
     font-family: 'Inter', sans-serif;
