@@ -1,398 +1,466 @@
 @import url(https://fonts.googleapis.com/css?family=Lato:400,300,100,700,900);
-@import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro:ital@1&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Source+Code+Pro:ital@1&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap");
 
-*{
-  margin: 0;
-  padding: 0;
+@import url("https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;0,1000;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900;1,1000&display=swap");
+
+* {
+	margin: 0;
+	padding: 0;
 }
 
-h1, a{
-  font-family: 'Lato';
+h1,
+a {
+	font-family: "Lato";
 }
 
 h1 {
-  font-size: 2.8em;
-  padding: 10px 0;
-  font-weight: 800;
-  padding-top: 0 0;
+	font-size: 2.8em;
+	padding: 10px 0;
+	font-weight: 800;
+	padding-top: 0 0;
 }
 
-h2{
-  text-align: center;
-  padding: 5px;
-  font-family: 'Inter', sans-serif;
-  font-weight: 500;
+h2 {
+	text-align: center;
+	padding: 5px;
+	font-family: "Inter", sans-serif;
+	font-weight: 500;
 }
 
-h3, h4{
-  text-align: center;
-  font-family: 'Inter', sans-serif;
-  font-weight: 450;
-  padding: 10px auto;
-  margin: 10px auto;
+h3,
+h4 {
+	text-align: center;
+	font-family: "Inter", sans-serif;
+	font-weight: 450;
+	padding: 10px auto;
+	margin: 10px auto;
 }
 
-p{
-  text-align: center;
-  font-family: 'Inter', sans-serif;
-  font-weight: 400;
-  padding: 10px auto;
-  margin: 10px auto;
+p {
+	text-align: center;
+	font-family: "Inter", sans-serif;
+	font-weight: 400;
+	padding: 10px auto;
+	margin: 10px auto;
 }
- 
+
 .skill_header {
-  font-family: 'Inter', sans-serif;
-  font-weight: 500;
+	font-family: "Inter", sans-serif;
+	font-weight: 500;
 }
 
-header p, footer p {
-  font-size: 1.1em;
-  font-weight: 600;
-  letter-spacing: 2px;
-  font-family: 'Source Code Pro', monospace;
-  padding: 1px 0;
+header p,
+footer p {
+	font-size: 1.1em;
+	font-weight: 600;
+	letter-spacing: 2px;
+	font-family: "Source Code Pro", monospace;
+	padding: 1px 0;
 }
 
 .banner {
-  width: 100%;
-  padding: 80px 0;
-  text-align: center;
-  background: rgb(0, 191, 255);
-  color: rgb(33, 44, 48);
-  height: 150px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
+	width: 100%;
+	padding: 80px 0;
+	text-align: center;
+	background: rgb(0, 191, 255);
+	color: rgb(33, 44, 48);
+	height: 150px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
 }
 
 .topnav {
-    background-color: rgb(70, 89, 95);
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-wrap: wrap;
-    position: fixed;
-    width: 100%;
-    z-index: 10;
-  }
-  
-  /* Style the links inside the navigation bar */
-  .topnav a {
-    color: #f2f2f2;
-    text-align: center;
-    padding: 14px 10px;
-    text-decoration: none;
-    font-size: 17px;
-    position: relative;
-  }
-  
-  /* Change the color of links on hover */
-  .topnav a:hover {
-    background-color: #ddd;
-    color: black;
-  }
-
-  .topnav .active{
-    background-color: rgb(140, 183, 248);
-    color: rgb(0,0,0)
-  }
-
-  header{
-    white-space: nowrap;
-  }
-
-  .typewriter p {
-    overflow: hidden; /* Ensures the content is not revealed until the animation */
-    border-right: 2px solid rgba(255, 255, 255, 0); /* The typwriter cursor */
-    white-space: nowrap; /* Keeps the content on a single line */
-    margin: 0 auto; /* Gives that scrolling effect as the typing happens */
-    letter-spacing: .1em; /* Adjust as needed */
-    animation: 
-      typing 6.0s steps(60), 
-      blink-caret .6s 11.0;
-  }
-  
-  /* The typing effect */
-  @keyframes typing {
-    from { width: 0 }
-    to { width: 335px }
-  }
-  
-  /* The typewriter cursor effect */
-  @keyframes blink-caret {
-    from, to { border-color: rgb(255, 255, 255); }
-    50% { border-color: transparent }
-  }
-
-  #about{
-    background-color: rgb(156, 214, 248);
-  }
-
-  #about .aboutHr{
-    width: 80%;
-    border-color: rgb(0, 115, 153);
-    background-color: rgb(0, 115, 153);
-    margin: 0 auto;
-    height: 2px;
-  }
-
-  #courseList{
-    margin: 0 auto;
-    padding: 0px;
-    font-family: "Inter", sans-serif;
-    list-style-position: inside;
-    text-align: center;
-    position: relative;
-  }
-  
-   #about_img img{
-    width: 25%;
-    height: 25%;
-    float: left;
-    border-top: rgb(25, 168, 216) solid 5px;
-    border-right: rgb(31, 130, 163) solid 5px;
-    border-bottom: rgb(0, 96, 128)solid 5px;
-  }
-
-  .bigRule {
-    width: 95%;
-    border-color: rgb(0, 115, 153);
-    border-style: outset;
-    background-color: rgb(0, 115, 153);
-    margin: auto;
-    height: 2px;
-  }
-
-  #pad {
-    padding: 2%;
-  }
-
-  #about_text{
-    max-width: 80%;
-    margin: 0 auto;
-    text-align: center;
-    position: relative;
-    left: 50%;
-    top: 50%;
-    padding-bottom: 20px;
-    transform: translate(-55%);
-  }
-
-  #activities, #awards{
-    max-width: 70%;
-    margin: 0 auto;
-    text-align: center;
-    padding-bottom: 20px;
-  }
-
-  #activeList, #awardList{
-      margin: 0 auto;
-      padding: 0px;
-      font-family: "Inter", sans-serif;
-      list-style-position: inside;
-      text-align: center;
-      position: relative;
-  }
-
- #activeList li, #awardList li{
-    padding-bottom: 10px;
-  }
-
-  #skills{
-    background-color: rgb(218, 158, 248);
-  }
-
-  #skills_img{
-    width: 35%;
-    float: right;
-  }
-
-  #skills_img img{
-    max-width: 100%;
-    margin: 0 auto;
-    display: flex;
-    align-items: center;
-  }
-
-  .skill_list{
-    margin: 0 auto;
-    font-family: "Inter", sans-serif;
-    list-style-position: inside;
-    text-align: center;
-    position: relative;
-  }
-
-  .skill_list li{
-    padding-bottom: 2px;
-  }
-
-  .skill_list p{
-    font-size: 1.5em;
-  }
-
-  #skills h3{
-    max-width: 80%;
-    margin: 0 auto;
-    padding: 0px;
-    text-align: center;
-    position: relative;
-    transform: translateX(-8%);
-  }
-
-  #pad5{
-    padding: 5px;
-  }
-
-  #skillRule{
-    width: 60%;
-    border-color: rgb(44, 2, 71);
-    border-style: outset;
-    background-color: rgb(92, 7, 117);
-    margin: 0 auto;
-    height: 2px;
-  }
-
-  #projects{
-    background-color: rgb(156, 214, 248);
-  }
-
-  #projectsFlex{
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: space-evenly;
-    align-items: center;
-  }
-
-  .projectBox{
-    width: 425px;
-    padding: 1%;
-    align-self: flex-start;
-  }
-
-  .projectBox #links{
-    text-align: center;
-  }
-
-  .projectBox li{
-    text-align: center;
-    font-family: 'Inter', sans-serif;
-    font-weight: 400;
-    padding: 10px auto;
-    margin: 10px auto;
-  }
-
-  #projectPicture{
-    height: 250px;
-    width: 60%;
-    margin: auto;
-  }
-
-  #projectPicture img{
-    height: 100%;
-    width: 100%;
-  }
-
-  #projectPicture2{
-    height: 250px;
-    width: 100%;
-    margin: auto;
-  }
-
-  #projectPicture2 img{
-    height: 100%;
-    width: 100%;
-  }
-
-  #experience{
-    background-color: rgb(218, 158, 248);
-  }
-
-
-  #experience .reference, #experience p{
-    max-width: 500px;
-  }
-
-footer{
-  background-color:rgb(140, 183, 248);
+	background-color: rgb(70, 89, 95);
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-wrap: wrap;
+	position: fixed;
+	width: 100%;
+	z-index: 10;
 }
 
-footer h2{
-  color: rgb(0,0,0)
+/* Style the links inside the navigation bar */
+.topnav a {
+	color: #f2f2f2;
+	text-align: center;
+	padding: 14px 10px;
+	text-decoration: none;
+	font-size: 17px;
+	position: relative;
 }
 
-.contact{
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  background-color: rgb(140, 183, 248);
+/* Change the color of links on hover */
+.topnav a:hover {
+	background-color: #ddd;
+	color: black;
+}
 
+.topnav .active {
+	background-color: rgb(140, 183, 248);
+	color: rgb(0, 0, 0);
+}
+
+header {
+	white-space: nowrap;
+}
+
+.typewriter p {
+	overflow: hidden; /* Ensures the content is not revealed until the animation */
+	border-right: 2px solid rgba(255, 255, 255, 0); /* The typwriter cursor */
+	white-space: nowrap; /* Keeps the content on a single line */
+	margin: 0 auto; /* Gives that scrolling effect as the typing happens */
+	letter-spacing: 0.1em; /* Adjust as needed */
+	animation: typing 6s steps(60), blink-caret 0.6s 11;
+}
+
+/* The typing effect */
+@keyframes typing {
+	from {
+		width: 0;
+	}
+	to {
+		width: 335px;
+	}
+}
+
+/* The typewriter cursor effect */
+@keyframes blink-caret {
+	from,
+	to {
+		border-color: rgb(255, 255, 255);
+	}
+	50% {
+		border-color: transparent;
+	}
+}
+
+#about {
+	background-color: rgb(156, 214, 248);
+}
+
+#about .aboutHr {
+	width: 80%;
+	border-color: rgb(0, 115, 153);
+	background-color: rgb(0, 115, 153);
+	margin: 0 auto;
+	height: 2px;
+}
+
+#courseList {
+	margin: 0 auto;
+	padding: 0px;
+	font-family: "Inter", sans-serif;
+	list-style-position: inside;
+	text-align: center;
+	position: relative;
+}
+
+#about_img img {
+	width: 25%;
+	height: 25%;
+	float: left;
+	border-top: rgb(25, 168, 216) solid 5px;
+	border-right: rgb(31, 130, 163) solid 5px;
+	border-bottom: rgb(0, 96, 128) solid 5px;
+}
+
+.bigRule {
+	width: 95%;
+	border-color: rgb(0, 115, 153);
+	border-style: outset;
+	background-color: rgb(0, 115, 153);
+	margin: auto;
+	height: 2px;
+}
+
+#pad {
+	padding: 2%;
+}
+
+#about_text {
+	max-width: 80%;
+	margin: 0 auto;
+	text-align: center;
+	position: relative;
+	left: 50%;
+	top: 50%;
+	padding-bottom: 20px;
+	transform: translate(-55%);
+}
+
+#activities,
+#awards {
+	max-width: 70%;
+	margin: 0 auto;
+	text-align: center;
+	padding-bottom: 20px;
+}
+
+#activeList,
+#awardList {
+	margin: 0 auto;
+	padding: 0px;
+	font-family: "Inter", sans-serif;
+	list-style-position: inside;
+	text-align: center;
+	position: relative;
+}
+
+#activeList li,
+#awardList li {
+	padding-bottom: 10px;
+}
+
+#skills {
+	background-color: rgb(218, 158, 248);
+}
+
+#skills_img {
+	width: 35%;
+	float: right;
+}
+
+#skills_img img {
+	max-width: 100%;
+	margin: 0 auto;
+	display: flex;
+	align-items: center;
+}
+
+.skill_list {
+	margin: 0 auto;
+	font-family: "Inter", sans-serif;
+	list-style-position: inside;
+	text-align: center;
+	position: relative;
+}
+
+.skill_list li {
+	padding-bottom: 2px;
+}
+
+.skill_list p {
+	font-size: 1.5em;
+}
+
+#skills h3 {
+	max-width: 80%;
+	margin: 0 auto;
+	padding: 0px;
+	text-align: center;
+	position: relative;
+	transform: translateX(-8%);
+}
+
+#pad5 {
+	padding: 5px;
+}
+
+#skillRule {
+	width: 60%;
+	border-color: rgb(44, 2, 71);
+	border-style: outset;
+	background-color: rgb(92, 7, 117);
+	margin: 0 auto;
+	height: 2px;
+}
+
+#projects {
+	background-color: rgb(156, 214, 248);
+}
+
+#projectsFlex {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: space-evenly;
+	align-items: center;
+}
+
+.projectBox {
+	width: 425px;
+	padding: 1%;
+	align-self: flex-start;
+}
+
+.projectBox #links {
+	text-align: center;
+}
+
+.projectBox li {
+	text-align: center;
+	font-family: "Inter", sans-serif;
+	font-weight: 400;
+	padding: 10px auto;
+	margin: 10px auto;
+}
+
+#projectPicture {
+	height: 250px;
+	width: 60%;
+	margin: auto;
+}
+
+#projectPicture img {
+	height: 100%;
+	width: 100%;
+}
+
+#projectPicture2 {
+	height: 250px;
+	width: 100%;
+	margin: auto;
+}
+
+#projectPicture2 img {
+	height: 100%;
+	width: 100%;
+}
+
+#experience {
+	background-color: rgb(218, 158, 248);
+}
+
+#experience .reference,
+#experience p {
+	max-width: 500px;
+}
+
+footer {
+	background-color: rgb(140, 183, 248);
+}
+
+footer h2 {
+	color: rgb(0, 0, 0);
+}
+
+.contact {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	background-color: rgb(140, 183, 248);
 }
 
 .contact a {
-  float: right;
-  color: rgb(0,0,0);
-  text-align: center;
-  padding: 14px 10px;
-  text-decoration: none;
-  font-size: 20px;
+	float: right;
+	color: rgb(0, 0, 0);
+	text-align: center;
+	padding: 14px 10px;
+	text-decoration: none;
+	font-size: 20px;
 }
 
 /* Change the color of links on hover */
 .contact a:hover {
-  background-color: #ddd;
-  color: black;
+	background-color: #ddd;
+	color: black;
 }
 
-footer p{
-  text-align: center;
-  font-family: 'Inter', sans-serif;
-  font-weight: 450;
-  padding: 0 auto;
-  padding-bottom: 10px;
-  margin: auto;
-  font-size: .8em;
-  background-color: rgb(140, 183, 248);
-  color: rgb(0,0,0);
+footer p {
+	text-align: center;
+	font-family: "Inter", sans-serif;
+	font-weight: 450;
+	padding: 0 auto;
+	padding-bottom: 10px;
+	margin: auto;
+	font-size: 0.8em;
+	background-color: rgb(140, 183, 248);
+	color: rgb(0, 0, 0);
 }
 /* The Modal (background) */
 .modal {
-  display: none; /* Hidden by default */
-  position: fixed; /* Stay in place */
-  z-index: 1; /* Sit on top */
-  padding-top: 100px; /* Location of the box */
-  left: 0;
-  top: 0;
-  width: 100%; /* Full width */
-  height: 100%; /* Full height */
-  overflow: auto; /* Enable scroll if needed */
-  background-color: rgb(0,0,0); /* Fallback color */
-  background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+	display: none; /* Hidden by default */
+	position: fixed; /* Stay in place */
+	z-index: 1; /* Sit on top */
+	padding-top: 100px; /* Location of the box */
+	left: 0;
+	top: 0;
+	width: 100%; /* Full width */
+	height: 100%; /* Full height */
+	overflow: auto; /* Enable scroll if needed */
+	background-color: rgb(0, 0, 0); /* Fallback color */
+	background-color: rgba(0, 0, 0, 0.4); /* Black w/ opacity */
 }
 
 /* Modal Content */
 .modal-content {
-  background-color: rgb(140, 183, 248);
-  margin: auto;
-  padding: 20px;
-  border: 1px solid rgb(140, 183, 248);
-  width: 80%;
+	background-color: rgb(140, 183, 248);
+	margin: auto;
+	padding: 20px;
+	border: 1px solid rgb(140, 183, 248);
+	width: 80%;
 }
 
 /* The Close Button */
 .close {
-  color: #525050;
-  float: right;
-  font-size: 28px;
-  font-weight: 600;
-  width: 20px;
-  height: 20px;
+	color: #525050;
+	float: right;
+	font-size: 28px;
+	font-weight: 600;
+	width: 20px;
+	height: 20px;
 }
 
 .close:hover,
 .close:focus {
-  color: #000;
+	color: #000;
+	text-decoration: none;
+	cursor: pointer;
+}
+
+/* Deprecation Banner */
+
+.deprecation-banner {
+	width: 100%;
+	background-color: #000b2e;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+	font-family: "Nunito" !important;
+	color: #8eacc7;
+}
+
+#deprecation-header {
+	color: #d3f3fc;
+	font-family: "Nunito" !important;
+}
+
+#website-link {
+	color: #d3f3fc;
+	text-decoration: wavy;
+}
+
+
+
+#redirect-button {
+	border-radius: 9999px;
+	background-color: #00d7eb;
+	color: #000b2e;
+	padding: 8px;
+	font-weight: bold;
+	margin-left: 4px;
+	margin-right: 4px;
+	border-color: #00d7eb;
+	transition-property: color, background-color, border-color, text-decoration-color, fill, stroke;
+	transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+	transition-duration: 150ms;
+  font-family: 'Nunito';
   text-decoration: none;
-  cursor: pointer;
+
+  border-width: 0px;
+  margin-bottom: 8px;
+  font-size: xx-large;
+}
+
+#redirect-button:hover{
+  padding: 5px;
+  background-color: #000b2e;
+  color: #00d7eb;
+  text-decoration: none;
+  border: 3px solid #00d7eb ;
+  border-color: #00d7eb;
 }
