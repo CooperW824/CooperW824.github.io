@@ -422,6 +422,19 @@ footer p {
 	flex-direction: column;
 	font-family: "Nunito" !important;
 	color: #8eacc7;
+  word-wrap:normal;
+  overflow-wrap: break-word;
+}
+
+
+#deprecation-banner {
+  width: 100%;
+	font-family: "Nunito" !important;
+	color: #8eacc7;
+  word-wrap: normal;
+  overflow-wrap: break-word;
+  text-overflow: clip;
+  overflow: hidden;
 }
 
 #deprecation-header {
@@ -450,10 +463,9 @@ footer p {
 	transition-duration: 150ms;
   font-family: 'Nunito';
   text-decoration: none;
-
   border-width: 0px;
   margin-bottom: 8px;
-  font-size: xx-large;
+  font-size: x-large;
 }
 
 #redirect-button:hover{
